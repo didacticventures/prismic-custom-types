@@ -1,0 +1,20 @@
+[
+  {
+    "id": "course",
+    "name": "Course",
+    "repeatable": true,
+    "value": "course.json"
+  },
+  {
+    "id": "syllabus",
+    "name": "Syllabus",
+    "repeatable": true,
+    "value": "syllabus.json"
+  },
+  {
+    "id": "lesson_detail",
+    "name": "Lesson Detail",
+    "repeatable": true,
+    "value": "lesson_detail.json"
+  }
+]

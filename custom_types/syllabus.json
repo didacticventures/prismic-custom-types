@@ -1,0 +1,104 @@
+{
+  "Main": {
+    "uid": {
+      "type": "UID",
+      "config": {
+        "label": "uid"
+      }
+    },
+    "body": {
+      "type": "Slices",
+      "fieldset": "Slice zone",
+      "config": {
+        "labels": {
+          "lesson": []
+        },
+        "choices": {
+          "lesson": {
+            "type": "Slice",
+            "fieldset": "Lesson",
+            "description": "A course lesson",
+            "icon": "library_books",
+            "display": "list",
+            "non-repeat": {
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                  "label": "Title"
+                }
+              },
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+                  "label": "Description"
+                }
+              },
+              "publish_timestamp": {
+                "type": "Timestamp",
+                "config": {
+                  "label": "Publish timestamp"
+                }
+              }
+            },
+            "repeat": {
+              "thumbnail": {
+                "type": "Image",
+                "config": {
+                  "constraint": {},
+                  "thumbnails": [],
+                  "label": "Thumbnail"
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Link"
+                }
+              },
+              "file": {
+                "type": "Embed",
+                "config": {
+                  "label": "File"
+                }
+              },
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "single": "heading1, heading2, heading3, heading4, heading5, heading6",
+                  "label": "Title"
+                }
+              },
+              "detail": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+                  "label": "Detail"
+                }
+              },
+              "due_date": {
+                "type": "Date",
+                "config": {
+                  "label": "Due date"
+                }
+              },
+              "completed_date": {
+                "type": "Date",
+                "config": {
+                  "label": "Completed date"
+                }
+              },
+              "publish_timestamp": {
+                "type": "Timestamp",
+                "config": {
+                  "label": "Publish timestamp"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
