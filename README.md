@@ -12,10 +12,10 @@ It will NOT create the instances of the Course and Syllabus types or download th
 
 `npm install -g prismic-cli`
 
-From some folder (where you don't mind new folders being created), run: 
+From some folder (where you don't mind new folders being created), run:  
 `prismic theme --theme-url https://github.com/didacticventures/prismic-custom-types --conf config.js`
 
-Follow the prompts, you'll have to:
+Follow the prompts. You'll have to:
 - Specify a repository name (`[schoolSlug]-maven`), and the same name for the folder that the project files will be downloaded into
 - Create a new username/password (use the instructor's email, and save it into the Course Ops vault in 1Password)
 - Once the script has run, log into Prismic with these credentials
