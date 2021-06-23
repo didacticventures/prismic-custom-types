@@ -12,6 +12,9 @@ It will NOT create the instances of the Course and Syllabus types or download th
 
 `npm install -g prismic-cli`
 
+Log out of prismic (otherwise the new repository will be created in the account you're logged in with):
+`prismic logout`
+
 From some folder (where you don't mind new folders being created), run:  
 `prismic theme --theme-url https://github.com/didacticventures/prismic-custom-types --conf config.js`
 
