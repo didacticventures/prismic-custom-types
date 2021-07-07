@@ -26,3 +26,9 @@ Follow the prompts. You'll have to:
 - Create the API app and save the information in the script.
 
 <img width="1010" alt="Screen Shot 2021-06-22 at 4 43 28 PM" src="https://user-images.githubusercontent.com/256076/123013399-faab5200-d378-11eb-9bf8-fdd16bb86a56.png">
+
+### Potential Errors
+
+#### 1. Unexpected token o in JSON at position 1
+
+If you're creating the Prismic account through the CLI, you might encounter this error. This seems to be an error where the API is expecting a field that the CLI isn't passing in. To get past this, you can create the account manually via the website and then use the CLI (but login instead of create a new account).
